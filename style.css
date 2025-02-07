@@ -1,0 +1,122 @@
+
+navbar-container {
+   height: 50px; 
+   width: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+#home-container{
+    text-align: center;text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+#welcome-message{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+
+.container{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color:lightskyblue;
+
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px;
+    transition: all ease-in-out;
+
+}
+.container img:hover{
+    width: 25%;
+}
+.spider{
+    background-color: grey;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    justify-content: center;
+   
+}
+.spider img{
+    width: 80%;
+    height: 100%;
+    background-color: grey;
+
+}
+.captain{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: aqua;
+}
+.captain img{
+    width: 80%;
+    height: 100%;
+    background-color: coral;
+}
+ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+div a {
+    color:burlywood;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0.5px;
+    border: 2.5px;
+    
+    
+}
+.iron{
+    background-color: goldenrod;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    justify-content: center;
+   
+}
+.iron img{
+    width: 80%;
+    height: 100%;
+
+}
+.deadpool{
+    background-color: coral;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    justify-content: center;
+   
+}
+.deadpool img{
+    width: 80%;
+    height: 100%;
+
+}
+
+.login{
+    background-color: blue;
+    text-align: center;    
+}
+.signup-container{
+    text-align: center;
+}
+.user-signup{
+    color: darkseagreen;
+
+}
+.signup{
+    color: cyan;
+}
